@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Bao's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dna-animation">
+        <div class="dna-helix"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-dna"></i>
+                    <span>BioPortfolio</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <div class="profile-icon">
+                        <img src="profile/1.svg" alt="Bella Bao" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1>Bella Bao</h1>
+                    <h2>Product Manager & Software Engineer</h2>
+                    <p class="hero-bio">Bella Bao is a highly skilled product manager and software engineer with a strong background in AI security and bioinformatics. She has demonstrated expertise in leading product development, enhancing user experience, and implementing data-driven solutions. Her leadership roles and academic achievements highlight her commitment to innovation and excellence.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary">Contact Me</a>
+                        <a href="#research" class="btn secondary">View Research</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="divider">
+                    <i class="fas fa-dna"></i>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Bella Bao is a highly skilled product manager and software engineer with a strong background in AI security and bioinformatics. She has demonstrated expertise in leading product development, enhancing user experience, and implementing data-driven solutions. Her leadership roles and academic achievements highlight her commitment to innovation and excellence.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Contact</h3>
+                            <p>bella.bao@yale.edu</p>
+                            <p>+1 510-513-2529</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Location</h3>
+                            <p>New haven</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Research Focus</h3>
+                            <div id="research-interests-container">
+                                <p>blockchain + homomorphic encryption</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="divider">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+            </div>
+            <div class="timeline" id="education-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>M.S. in Health Informatics</h3>
+                            <span class="timeline-date">May. 2025 (expected)</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="institution">Yale University</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>B.S. in Bioinformatics</h3>
+                            <span class="timeline-date">June. 2023</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="institution">University of California, San Diego</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience</h2>
+                <div class="divider">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+            </div>
+            <div class="experience-grid" id="experience-container">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Product Manager</h3>
+                        <span class="experience-date">Dec. 2024 – Present</span>
+                    </div>
+                    <p class="experience-place">Watermarked.ai</p>
+                    <ul class="experience-details">
+                        <li>Identified 15+ core customer needs through analysis of 100+ user interviews, targeting AI deepfake detection and content protection challenges.</li>
+                        <li>Defined 3 market segments and crafted 3 tailored product roadmaps to prioritize MVP features.</li>
+                        <li>Redesigned and launched company website using Figma, HTML, CSS, integrating Google Analytics and A/B testing.</li>
+                        <li>Led revamp of investor pitch materials for 2025 Rice Business Plan Competition.</li>
+                        <li>Collaborated with Y Combinator partners during Yale’s startup program to refine product-market fit strategy.</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">Figma</span>
+                        <span class="technique-tag">HTML</span>
+                        <span class="technique-tag">CSS</span>
+                        <span class="technique-tag">Google Analytics</span>
+                        <span class="technique-tag">A/B testing</span>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Software Engineer Intern</h3>
+                        <span class="experience-date">May. 2024 – Aug. 2024</span>
+                    </div>
+                    <p class="experience-place">Adobe Inc.</p>
+                    <ul class="experience-details">
+                        <li>Led the end-to-end design and implementation of the Security Auto-Ticketing feature in the developer portal.</li>
+                        <li>Defined 2 data metrics to measure developer productivity and implemented comprehensive tracking systems.</li>
+                        <li>Reduced deployment configuration time by 20% through revamping the service onboarding experience.</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">Jira</span>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Software Engineer Intern</h3>
+                        <span class="experience-date">Jun. 2023 – Aug. 2023</span>
+                    </div>
+                    <p class="experience-place">ByteDance Inc.</p>
+                    <ul class="experience-details">
+                        <li>Identified unique user needs for product through 10 target users feedback calls.</li>
+                        <li>Conducted user research and proposed enhancements for the online editing of WDL documents.</li>
+                        <li>Identified user friction points in the search experience, developing a search criteria retention feature.</li>
+                        <li>Domain knowledge sharing with over 30 cross-functional team members.</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">golang</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research Projects</h2>
+                <div class="divider">
+                    <i class="fas fa-microscope"></i>
+                </div>
+            </div>
+            <div class="projects-grid" id="projects-container">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Yale CourseMap</h3>
+                        <p class="project-duration">2018-2020</p>
+                        <p class="project-description">Initiated and led a cross-functional team of 6 in developing Yale CourseMap, a React-based course recommendation tool with OpenAI API integration.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>OpenAI API</span>
+                            <span>Python</span>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Web4Me</h3>
+                        <p class="project-duration">2018-2020</p>
+                        <p class="project-description">Founded AI-driven personal website generator, enabling one-click resume-to-website conversion using React and AWS EC2.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>AWS EC2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Publications</h2>
+                <div class="divider">
+                    <i class="fas fa-book"></i>
+                </div>
+            </div>
+            <div class="publications-list" id="publications-container">
+                <div class="publication-item">
+                    <h3 class="publication-title">mirtarbase</h3>
+                    <div class="publication-meta">
+                        <span class="journal">oxford</span>
+                        <span class="year">2021</span>
+                    </div>
+                    <p class="authors">Bella Bao</p>
+                    <div class="publication-links">
+                        <a href="https://academic.oup.com/nar/article/50/D1/D222/6446528" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> View Paper
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="publication-item">
+                    <h3 class="publication-title">another paper</h3>
+                    <div class="publication-meta">
+                        <span class="journal">test</span>
+                        <span class="year">test</span>
+                    </div>
+                    <p class="authors">test</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="divider">
+                    <i class="fas fa-tools"></i>
+                </div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Laboratory Techniques</h3>
+                    <div class="skills-grid" id="technical-skills-container">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-dna"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Figma</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-vial"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>CSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Google Analytics</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>A/B testing</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Jira</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>React</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>OpenAI API</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>AWS EC2</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Data Analysis</h3>
+                    <div class="skills-grid">
+                        <!-- Additional skills can be added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="teaching">
+        <div class="container">
+            <div class="section-header">
+                <h2>Teaching Experience</h2>
+                <div class="divider">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+            </div>
+            <div class="teaching-grid" id="teaching-container">
+                <div class="teaching-card">
+                    <div class="teaching-header">
+                        <h3>TA</h3>
+                        <span class="teaching-date">2020-2021</span>
+                    </div>
+                    <p class="teaching-place">statistics</p>
+                    <div class="courses">
+                        <h4>Courses Taught:</h4>
+                        <ul>
+                            <li>SDS242</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards">
+        <div class="container">
+            <div class="section-header">
+                <h2>Honors & Awards</h2>
+                <div class="divider">
+                    <i class="fas fa-award"></i>
+                </div>
+            </div>
+            <div class="awards-grid" id="awards-container">
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3>national first </h3>
+                        <p class="award-date">2021</p>
+                        <p class="award-org">USA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="divider">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>I'm always interested in new research collaborations, speaking opportunities, or discussions about my work. Feel free to reach out!</p>
+                </div>
+                <div class="contact-methods">
+                    <a href="mailto:bella.bao@yale.edu" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>bella.bao@yale.edu</p>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+15105132529" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Phone</h3>
+                            <p>+1 510-513-2529</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linked.com" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>www.linked.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.baidu.com" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Google Scholar</h3>
+                            <p>View Publications</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-dna"></i>
+                    <span>Bella Bao</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.linked.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.google.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.baidu.com" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Bella Bao. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html> 
